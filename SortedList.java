@@ -61,10 +61,10 @@ public class SortedList<String> {
       
     }
 
-    // public void deleteBack(){
-    //     this.list.remove(this.list.size() - 1);
+    public void deleteBack(){
+        this.list.remove(this.list.size() - 1);
 
-    // }
+    }
     
     // public void removeDuplicates() {
     //     int i = 0;
