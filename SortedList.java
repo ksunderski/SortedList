@@ -7,15 +7,15 @@ public class SortedList<String> {
         list = new ArrayList<String>();
     }
 
-    // public SortedList(SortedList sortedList2) {
-    //     for(String element : sortedList2.getList()){
-    //         this.list.add(element);
-    //     }
-    // }
+    public SortedList(SortedList sortedList2) {
+        for(String element : sortedList2.getList()){
+            this.list.add(element);
+        }
+    }
 
-    // public ArrayList<String> getList() {
-    //     return list;
-    // }
+    public ArrayList<String> getList() {
+        return list;
+    }
 
     // public int indexOf(String value) {
     //     int startIndex = 0;
